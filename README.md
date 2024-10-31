@@ -1,6 +1,6 @@
 # 👨🏻‍💻 Porfolio para programadores y desarrolladores
 
-<div align="center">
+<!-- <div align="center">
 <a href="https://porfolio.dev/">
 <img src="./public/porfolio.webp">
 </a>
@@ -24,4 +24,4 @@
   <img src="https://contrib.rocks/image?repo=midudev/porfolio.dev" />
 </a>
 
-<p></p>
+<p></p> -->
