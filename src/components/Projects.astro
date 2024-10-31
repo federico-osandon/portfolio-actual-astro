@@ -2,6 +2,9 @@
 import GitHub from "./icons/GitHub.astro"
 import NextJS from "./icons/NextJS.astro"
 import Tailwind from "./icons/Tailwind.astro"
+import Astrojs from "./icons/Astrojs.astro"
+import Wp from "./icons/Wp.astro"
+import Acf from "./icons/Acf.astro"
 import Link from "./icons/Link.astro"
 import LinkButton from "./LinkButton.astro"
 
@@ -16,23 +19,46 @@ const TAGS = {
     class: "bg-[#003159] text-white",
     icon: Tailwind,
   },
+  ASTRO: {
+    name: "Astro",
+    class: "bg-black text-white",
+    icon: Astrojs,
+  },
+  WP: {
+    name: "Wordpress",
+    class: "bg-black text-white",
+    icon: Wp,
+  },
+  ACF : {
+    name: "Advanced Custom Fields",
+    class: "bg-black text-white",
+    icon: Acf,
+  },
 }
 const PROJECTS = [
   {
-    title: "SVGL - A beautiful library with SVG logos",
+    title: "Portic (staging) - Web servicios del Puerto de Barcelona",
     description:
-      "Biblioteca de logos SVG de las marcas más populares. +10k visitas al mes. +2K svgs descargados. Creado desde cero con Next.js, React y Tailwind CSS.",
-    link: "https://svgl.vercel.app/",
-    github: "https://github.com/pheralb/svgl",
-    image: "/projects/svgl.webp",
-    tags: [TAGS.NEXT, TAGS.TAILWIND],
+      "Web de servicios del Puerto de Barcelona, desarrollada en WordPress utilizando Advanced Custom Fields (ACF) para una gestión dinámica de contenidos.",
+    link: "https://wordpress-1036748-3648744.cloudwaysapps.com/",
+    // github: "https://github.com/pheralb/svgl",
+    image: "/projects/portic.webp",
+    tags: [TAGS.WP, TAGS.ACF],
   },
   {
-    title: "AdventJS - Retos de programación con JavaScript y TypeScript",
+    title: "Vamos - Web Institucional",
     description:
-      "Plataforma gratuita con retos de programación. Más de 1 millón de visitas en un mes. +50K retos completados. Creada desde cero con Next.js, React y Tailwind CSS.",
-    link: "https://adventjs.dev",
-    image: "/projects/adventjs.webp",
+      "Web con contenido interactivo avanzado, desarrollada desde cero utilizando Astro y Tailwind CSS. ",
+    link: "https://vamos.entrenamientoseden.com/",
+    image: "/projects/vamos.webp",
+    tags: [TAGS.ASTRO, TAGS.TAILWIND],
+  },
+  {
+    title: "Technicoders (stagin) - Web Corporativa",
+    description:
+      "Sitio web corporativo para Technicoder, una empresa especializada en desarrollo y SEO. Construida con Next.js, Tailwind CSS y GSAP para lograr una experiencia visual dinámica y profesional que destaca la propuesta de valor de la empresa.",
+    link: "https://technicoders-git-developer-federicos-projects-d947f557.vercel.app/",
+    image: "/projects/technicoders.webp",
     tags: [TAGS.NEXT, TAGS.TAILWIND],
   },
 ]
